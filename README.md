@@ -1,5 +1,5 @@
 # CodingWaifu
-CodingWaifu is a tool that enhances your development workflow by providing a virtual anime assistant.
+CodingWaifu is a vscode extension that enhances your development workflow by providing a virtual anime assistant.
 This assistant can help you execute Git commands and interact with you , making it feel like you have a real anime assistant by your side.
 
 ![example](https://cdn.discordapp.com/attachments/801710150963560499/1144197804982550598/example.gif)
