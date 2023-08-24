@@ -3,11 +3,14 @@
   "displayName": "CodingWaifu",
   "description": "Never coding alone again!",
   "version": "0.0.1",
-  "publisher": "San Ho",
+  "publisher": "San45600",
   "engines": {
     "vscode": "^1.75.0"
   },
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/San45600",
   "main": "./out/extension.js",
+  "icon": "assets/icon.png",
   "contributes": {
     "commands": [
       {
@@ -16,6 +19,16 @@
       }
     ]
   },
+  "categories": [
+	  "Visualization"
+	],
+  "keywords": [
+	  "git",
+	  "visualization",
+	  "anime",
+	  "waifu",
+	  "assistant"
+	],
   "scripts": {
     "install:all": "npm install && cd webview-ui && npm install",
     "start:webview": "cd webview-ui && npm run start",
