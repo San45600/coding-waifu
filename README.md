@@ -8,9 +8,12 @@ This assistant can help you execute Git commands and interact with you , making 
 You can install CodingWaifu from the Extensions side bar in VS Code, by searching for CodingWaifu.
 
 ## Usage
-After installing CodingWaifu, you can start Codingwaifu with command "Start Codingwaifu" from the Command Palette (⇧⌘P / ctrl + shift + p).
+You can start Codingwaifu with command "Start Codingwaifu" from the Command Palette (⇧⌘P / ctrl + shift + p).
+
 You can change the avatar by changing the avatar id. You can change it before clicking the "start" button at the start of the extension.
+
 Leave the avatar id blank if you don't have avatar id, it will use default avatar automatically.
+
 For different avatar id, you can generate it from [here](https://labs.avatech.ai) .
 
 <img src="assets/preview.png" alt="codingwaifu preview" />
