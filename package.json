@@ -2,7 +2,7 @@
   "name": "coding-waifu",
   "displayName": "CodingWaifu",
   "description": "Never coding alone again!",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "San45600",
   "engines": {
     "vscode": "^1.75.0"
@@ -20,15 +20,15 @@
     ]
   },
   "categories": [
-	  "Visualization"
-	],
+    "Visualization"
+  ],
   "keywords": [
-	  "git",
-	  "visualization",
-	  "anime",
-	  "waifu",
-	  "assistant"
-	],
+    "git",
+    "visualization",
+    "anime",
+    "waifu",
+    "assistant"
+  ],
   "scripts": {
     "install:all": "npm install && cd webview-ui && npm install",
     "start:webview": "cd webview-ui && npm run start",
