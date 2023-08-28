@@ -194,7 +194,7 @@ export function Input(props: { onConfirm; input; setInput; className?; confirmTe
           type="text"
           aria-label="chat input"
           required
-          className="px-1 w-full rounded-3xl focus:outline-none"
+          className="px-1 w-full rounded-3xl focus:outline-none bg-white"
           value={input}
           onChange={(e) => {
             setInput(e.target.value);

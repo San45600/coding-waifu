@@ -124,6 +124,7 @@ export class CodingWaifuPanel {
                   console.error(`error: ${error}`);
                   CodingWaifuPanel.currentPanel._panel.webview.postMessage({
                     command: "error",
+                    error: stderr
                   });
                   return;
                 }
@@ -143,6 +144,7 @@ export class CodingWaifuPanel {
                   console.error(`error: ${error}`);
                   CodingWaifuPanel.currentPanel._panel.webview.postMessage({
                     command: "error",
+                    error: stderr
                   });
                   return;
                 }
@@ -162,6 +164,7 @@ export class CodingWaifuPanel {
                   console.error(`error: ${error}`);
                   CodingWaifuPanel.currentPanel._panel.webview.postMessage({
                     command: "error",
+                    error: stderr
                   });
                   return;
                 }
@@ -179,6 +182,10 @@ export class CodingWaifuPanel {
               (error, stdout, stderr) => {
                 if (error) {
                   console.error(`error: ${error}`);
+                  CodingWaifuPanel.currentPanel._panel.webview.postMessage({
+                    command: "error",
+                    error: stderr
+                  });
                   return;
                 }
                 CodingWaifuPanel.currentPanel._panel.webview.postMessage({
@@ -195,6 +202,10 @@ export class CodingWaifuPanel {
               (error, stdout, stderr) => {
                 if (error) {
                   console.error(`error: ${error}`);
+                  CodingWaifuPanel.currentPanel._panel.webview.postMessage({
+                    command: "error",
+                    error: stderr
+                  });
                   return;
                 }
                 CodingWaifuPanel.currentPanel._panel.webview.postMessage({
